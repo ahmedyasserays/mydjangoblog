@@ -34,3 +34,15 @@ This is a simple blog project but i'll be listing new concepts that I learn here
 5. novalidate html attribute can be usefull while testing backend validations
 5. http required decorators: require_GET, require_POST and also there is a condition decarator that can be used to return 304
 6. calling .count method in template tag multiple time can be optimized using the {% with %} template tag
+7. django-taggit package
+8. django taggit are using a weird text input field that is accepting any string and getting or creating values based on the comma separatd values, this can be done if you override the clean method of the char fiel
+9. we can import from a parent module using ..
+10. in creating custom tags, you will use the name of the file you created to import the template tags
+11. new template tag type (inclusion_tag)
+12. storing template tags return value in a variable that you can use later with with
+13. in the sitemap class you can have a lastmod method that can update each object with the update time for example
+14. what are RSS or Atom feeds and how to add them to my site
+15. you can import any built in tempalte filter from django.template.defaultfilters and use it as a normal function, the same applies to defaulttags from django.template.defaulttags
+16. you can pass --output to dumpdata instead of >>, also you can use --indent=2 for example to pretify or -Xutf8 for encoding
+17. Stemming is the process of reducing words to their word stem, base, or root form.
+18. triagram similarity is an algorithm for finding how many three characters repeated in the same word and used in search
